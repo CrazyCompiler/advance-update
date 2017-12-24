@@ -1,0 +1,4 @@
+esplugin {
+  description 'The advance-update updates the document in different form as you want'
+  classname 'org.elasticsearch.plugin.advance.update.AdvanceBulkUpdate'
+}
