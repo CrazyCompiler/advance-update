@@ -93,7 +93,8 @@ Control your elasticsearch document updates with extra speed.
 
 ### Prerequisites
 
-Elasticsearch 5.6.0
+- Elasticsearch 5.6.0
+- Change the thread_pool.bulk.queue_size to high enough so that your documents dont get skipped or else you can keep it to -1 also.
 
 ### Installing
 
