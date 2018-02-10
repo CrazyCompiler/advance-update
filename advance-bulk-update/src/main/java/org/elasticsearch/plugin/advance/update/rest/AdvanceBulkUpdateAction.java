@@ -47,7 +47,6 @@ public class AdvanceBulkUpdateAction extends BaseRestHandler {
         controller.registerHandler(PUT, "/{index}/{type}"+advanceBulkPath, this);
 
         this.allowExplicitIndex = MULTI_ALLOW_EXPLICIT_INDEX.get(settings);
-        System.out.println("The request is : ");
     }
 
     @Override

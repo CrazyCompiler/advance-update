@@ -82,7 +82,6 @@ public class AdvanceBulkItemRequest implements Streamable {
     public void writeTo(StreamOutput out) throws IOException {
         out.writeVInt(id);
         DocWriteRequest.writeDocumentRequest(out, request);
-        System.out.println("The request is : "+request);
         out.writeOptionalStreamable(primaryResponse);
         if (out.getVersion().before(Version.V_5_6_0_UNRELEASED)) {
             out.writeBoolean(isIgnoreOnReplica());

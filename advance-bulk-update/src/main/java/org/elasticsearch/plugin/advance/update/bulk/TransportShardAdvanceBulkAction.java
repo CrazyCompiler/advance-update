@@ -100,7 +100,7 @@ public class TransportShardAdvanceBulkAction extends TransportWriteAction<Advanc
             responses[i] = items[i].getPrimaryResponse();
         }
         AdvanceBulkShardResponse response = new AdvanceBulkShardResponse(request.shardId(), responses);
-        return new WritePrimaryResult<>(request, response, location, null, primary, logger);
+        return new WritePrimaryResult<>(request, response, location, new Exception("Don't Sync with replicas"), primary, logger);
     }
 
     /** Executes bulk item requests and handles request execution exceptions */
