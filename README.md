@@ -1,6 +1,6 @@
 # Advance Update
 
-Control your elasticsearch document updates with extra speed.
+Control your Elasticsearch document updates with extra speed.
 
 ## Description
 
