@@ -32,7 +32,7 @@ Control your Elasticsearch document updates with extra speed.
                 "c": 45
             }
 
-       So the field "b"is retained, but my usecase is to remove the "b", as I not sending it in the request.
+       So the field "b"is retained, but my use case is to remove the "b", as I am not sending it in the request.
      - The Advance Plugin can do this for you.
 
      eg : _Old Document_
