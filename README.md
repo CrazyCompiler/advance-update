@@ -117,6 +117,10 @@ Test the installation by visiting https://localhost:9200/_cat/plugins
 
 Works with only elasticsearch 5.6.0
 
+## What next ? 
+* Configure copying elasticsearch documents from primary shard to replicas
+* Updating a key in all the documents. 
+
 ## Authors
 
 * **Viraj Parab** - *Initial work* - [CrazyCompiler](https://github.com/CrazyCompiler)
