@@ -101,7 +101,7 @@ Control your elasticsearch document updates with extra speed.
 Download and install elasticsearch 5.6.0 from
 * [Elasticsearch](https://www.elastic.co/blog/elasticsearch-5-6-0-released)
 
-Download the leatest Advance Update plugin from
+Download the latest Advance Update plugin from
 * [Releases](https://github.com/CrazyCompiler/advance-update/releases)
 
 Install the plugin :
